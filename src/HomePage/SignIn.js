@@ -75,10 +75,10 @@ export default function SignUp() {
                 >
                     <StyledMenuItem>
                         <Switch>
-                            <ListItemText primary="SIGNUP AS USER" onClick={() => history.push("/tellnyell/signUp/user")} /></Switch>
+                            <ListItemText primary="SIGNUP AS USER" onClick={() => history.push("/signUp/user")} /></Switch>
                     </StyledMenuItem>
                     <StyledMenuItem>
-                        <ListItemText primary="SIGNUP AS BUSINESS OWNER" onClick={() => history.push("/tellnyell/signUp/BO")} />
+                        <ListItemText primary="SIGNUP AS BUSINESS OWNER" onClick={() => history.push("/signUp/BO")} />
                     </StyledMenuItem>
                 </StyledMenu>
             </div></Router>

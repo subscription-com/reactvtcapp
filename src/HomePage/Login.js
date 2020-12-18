@@ -68,11 +68,11 @@ export default function LogIn() {
                 >
                     <StyledMenuItem>
                         <Switch>
-                            <ListItemText primary="LOGIN AS USER" onClick={() => history.push("/tellnyell/login/user")} /></Switch>
+                            <ListItemText primary="LOGIN AS USER" onClick={() => history.push("/login/user")} /></Switch>
                     </StyledMenuItem>
                     <StyledMenuItem>
                         <Switch>
-                            <ListItemText primary="LOGIN AS BUSINESS OWNER" onClick={() => history.push("/tellnyell/login/BO")} /></Switch>
+                            <ListItemText primary="LOGIN AS BUSINESS OWNER" onClick={() => history.push("/login/BO")} /></Switch>
                     </StyledMenuItem>
                 </StyledMenu>
             </div></Router>
